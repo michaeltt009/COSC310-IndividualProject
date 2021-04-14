@@ -10,6 +10,7 @@ The idea behind using tensorflow is that with a fully inter-connected neural net
 
 We have also implemented some features to further enhance the user's experience and to improve the flow of conversation with the chat bot. A Graphical User Interfance(GUI) has been used in place of the terminal for input/output, so that the user has a more pleasant experience when talking with the bot. The bot also utilizes Stanford's CoreNLP Toolkit to make use of features such as Sentiment Analysis, which allows the bot to provide appropriate responses to statements that are not present in the question bank, and Part-of-speech(POS) tagging which helps the bot recognize certain key words as parts of speech(useful for performing other functions). Synonym recognition was also be implemented with the use of NLTK's WordNet. This feature helps the bot understand a wider range of vocabulary and sentences while providing the correct response.
 
+### Individual Project
 For the individual project, I have implemented a Google Translate API and a Twitter API. The Google Translate API will assist in translating French input so that the chat bot can respond with an answer in French. The Twitter API will assist in retrieving the chat bot's most recent Tweet so that the user of the chat bot can view the text of the most recent Tweet by the chat bot.
 
 ## **Downloading required APIs**
@@ -68,7 +69,7 @@ For the individual project, I have implemented a Google Translate API and a Twit
 
 ## **Newly added API files**
 * **translate.py** *Translates input and responses from english to french and from french to enlish*
-* **twitter.py** *Receives most recent tweet from chat bot person*
+* **twitter.py** *Receives most recent tweet from chat bot person. To use type in either "View recent tweet" or "See recent tweet".*
 
 
 ## **List of Old Features**
